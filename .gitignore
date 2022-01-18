@@ -1,0 +1,9 @@
+/node_modules
+/mongo
+/drone/__pycache__
+/drone/scriptPriseImage/89
+/89
+# /uploads
+index.html
+geckodriver.log
+# geometry_points.json

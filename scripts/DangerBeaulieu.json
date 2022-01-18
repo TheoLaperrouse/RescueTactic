@@ -1,0 +1,44 @@
+{
+	"donnees":[
+		{
+			"type": "CHIM",
+			"name": "Danger Chimie TP Beaulieu",
+			"longitude": -1.635008157050209,
+			"latitude": 48.117139508431926,
+			"couleur": "ORANGE",
+			"forme": "TRIANGLE"
+		},
+		{
+			"type": "CHIM",
+			"name": "Danger Chimie TP Beaulieu",
+			"longitude": -1.6339549224461494,
+			"latitude": 48.11778340938586,
+			"couleur": "ORANGE",
+			"forme": "TRIANGLE"
+		},
+		{
+			"type": "INC",
+			"name": "Attention au four",
+			"longitude": -1.6354234596790842,
+			"latitude": 48.11853182322134,
+			"couleur": "ROUGE",
+			"forme": "TRIANGLE"
+		},
+		{
+			"type": "EP",
+			"name": "Entrée personne",
+			"longitude": -1.6379752523810664,
+			"latitude": 48.11504923334331,
+			"couleur": "VERT",
+			"forme": "TRIANGLE"
+		},
+		{
+			"type": "CAS",
+			"name": "Caserne",
+			"longitude": -1.6453311327461495,
+			"latitude": 48.11276433681992,
+			"couleur": "NOIR",
+			"forme": "CARRE"
+		}
+	]
+}

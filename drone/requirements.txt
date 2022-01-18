@@ -1,0 +1,4 @@
+mavsdk
+asyncio
+random_object_id
+requests

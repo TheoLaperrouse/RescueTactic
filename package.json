@@ -1,0 +1,26 @@
+{
+  "name": "back_rescue_tactics",
+  "version": "1.0.0",
+  "description": "Back of the Application Rescue Tactic",
+  "author": "Théo Laperrouse <theolaperrouse@gmail.com> Alex Van Niekerk <>",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./server.js",
+    "docker": "docker-compose build && docker-compose up -d"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "boom": "^7.3.0",
+    "child-process": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.11.0",
+    "fastify-swagger": "^4.0.1",
+    "http": "0.0.1-security",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.14",
+    "mongoose-dummy": "^1.0.8",
+    "node-geocoder": "^3.27.0",
+    "nodemon": "^2.0.7",
+    "pusher": "^5.0.0"
+  }
+}

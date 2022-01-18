@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  node:
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongo
+    restart: on-failure
+  mongo:
+    image: mongo:4.0
+    ports:
+      - "27017:27017"
+    #volumes:
+    #  - "./mongo/data:/data/db"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=rescue_tactic
+      - MONGO_INITDB_ROOT_PASSWORD=password

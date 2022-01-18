@@ -1,0 +1,11 @@
+stages:
+  - deploy
+job_redeploy:
+  stage: deploy
+  tags:
+    - vm
+  script:
+    - chmod +x deploy.sh
+    - ./deploy.sh $USERNAME $PASSWORD
+  only:
+    - develop
