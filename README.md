@@ -1,4 +1,12 @@
-# Serveur Node JS
+# Rescue Tactic
+
+Application NodeJS/Android : Application de gestion d'intervention pour les pompiers. 
+
+## Projet M2 :
+
+Projet réalisé en groupe de 12 pendant deux semaines
+Ici seulement la partie Back faite avec mon collègue Alex Van Niekerk
+
 
 ## Technos utilisé
 
